@@ -99,6 +99,7 @@ const Welcome = () => {
             <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} />
             <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
             <text className="text-opacity-100 text-yellow-300"> after clickind send now open meta mask</text>
+            <text className="text-opacity-100 text-green-500"> ensure you are on right blockchain network</text>
             <div className="h-[1px] w-full bg-gray-400 my-2" />
           
             {isLoading
