@@ -98,9 +98,9 @@ const Welcome = () => {
             <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
             <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} />
             <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
-
+            <text className="text-opacity-100 text-yellow-300"> after clickind send now open meta mask</text>
             <div className="h-[1px] w-full bg-gray-400 my-2" />
-
+          
             {isLoading
               ? <Loader />
               : (
